@@ -33,7 +33,7 @@ public class CuentaBancaria {
         if (this.saldo > 0){
             System.out.println("La cuenta tiene fondos");
         } else if (this.saldo == 0) {
-            System.out.println("La cuenta no tienes fondos");
+            System.out.println("La cuenta no tiene fondos");
         } else {
             System.out.println("La cuenta esta sobregirada");
         }
